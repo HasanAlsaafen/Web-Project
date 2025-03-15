@@ -1,0 +1,36 @@
+.my-nav {
+    background-image: url('https://cdn.vectorstock.com/i/500p/84/65/abstract-white-monochrome-background-vector-32028465.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 6rem;
+}
+
+.card-cat {
+    font-size: 0.75rem;
+    opacity: 0.5;
+}
+
+.first-card {
+    background: linear-gradient(90deg, #281e5b, #322768);
+    color: #F0FFFF;
+}
+.first-card .card-title{
+    font-size: 2em;
+}
+.first-card .card-tbody{
+    font-size: 1.5em;
+}
+
+
+.my-card:hover {
+    transform: scale(1.05);
+}
+.mostread-order{
+    opacity: 0.5;
+    font-size: larger;
+}
+footer{
+    background-color:rgb(220, 220, 217);
+}
+
