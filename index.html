@@ -10,7 +10,16 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="shortcut icon"
+      href="https://t3.ftcdn.net/jpg/04/06/91/62/360_F_406916265_hxmrv7wgw9SZN9871yebxQJAX7HsHdNp.jpg"
+      type="image/x-icon"
+    />
   </head>
   <body dir="rtl">
     <nav class="navbar navbar-expand-lg my-nav">
@@ -56,7 +65,9 @@
               placeholder="ابحث"
               aria-label="Search"
             />
-            <button class="btn btn-outline-info" type="submit">ابحث</button>
+            <button class="btn btn-outline-dark" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
           </form>
         </div>
       </div>
@@ -64,8 +75,12 @@
     <div class="container mt-3">
       <div class="row">
         <div class="col-md-6">
-          <div class="my-card first-card">
-            <img src="https://picsum.photos/500/300" class="w-100" alt="Gaza" />
+          <div class="my-card first-card h-100 w-100">
+            <img
+              src="https://picsum.photos/500/300"
+              class="w-100 my-img"
+              alt="Gaza"
+            />
             <div class="my-card-body">
               <div class="card-cat">سياسة - فلسطين</div>
               <h5 class="my-card-title">غزة! عام على الحرب</h5>
@@ -82,7 +97,11 @@
           <div class="row">
             <div class="col-6 mb-3">
               <div class="my-card">
-                <img src="https://picsum.photos/300/150" alt="Gaza" />
+                <img
+                  src="https://picsum.photos/300/150"
+                  class="w-100"
+                  alt="Gaza"
+                />
                 <div class="my-card-body">
                   <div class="card-cat">سياسة - فلسطين</div>
                   <h5 class="my-card-title pt-6">
@@ -143,10 +162,11 @@
         <div class="row">
           <div class="col-md-4">
             <div class="most-read">
-              <div class="m-r-title">
+              <div class="title">
                 <p>الأكثر قراءة</p>
-                <hr />
               </div>
+              <hr />
+
               <div class="row d-flex justify-content-between mb-3">
                 <div class="col-10">
                   <a
@@ -206,49 +226,49 @@
           </div>
 
           <div class="more-news col-8">
-            <div class="morenews-title">
+            <div class="title">
               <p>المزيد من الأخبار</p>
-              <hr />
-              <div class="row">
-                <div class="col-7">
-                  <div class="my-card large-card">
-                    <img
-                      src="https://picsum.photos/300/150"
-                      alt="Gaza"
-                      class="w-100"
-                    />
-                    <div class="my-card-body">
-                      <div class="card-cat">سياسة - فلسطين</div>
-                      <h5 class="my-card-title">غزة! عام على الحرب</h5>
-                      <p class="my-card-text">
-                        تمر اليوم الذكرى السنوية الأولى لحرب غزة والمعروفة
-                        بطوفان الأقصى...
-                      </p>
+            </div>
+            <hr />
+            <div class="row">
+              <div class="col-md-7">
+                <div class="my-card large-card">
+                  <img
+                    src="https://picsum.photos/300/150"
+                    alt="Gaza"
+                    class="w-100"
+                  />
+                  <div class="my-card-body">
+                    <div class="card-cat">سياسة - فلسطين</div>
+                    <h5 class="my-card-title">غزة! عام على الحرب</h5>
+                    <p class="my-card-text">
+                      تمر اليوم الذكرى السنوية الأولى لحرب غزة والمعروفة بطوفان
+                      الأقصى...
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-5">
+                <div class="row h-50">
+                  <div class="col-md-6">
+                    <div class="my-card small-card h-50">
+                      <div class="my-card-body">
+                        <div class="card-cat">سياسة - فلسطين</div>
+                        <h5 class="my-card-title">غزة! عام على الحرب</h5>
+                      </div>
+                      <img src="https://picsum.photos/300/150" alt="Gaza" />
                     </div>
                   </div>
                 </div>
-
-                <div class="col-5">
-                  <div class="row h-50">
-                    <div class="col-6">
-                      <div class="my-card small-card h-50">
-                        <div class="my-card-body">
-                          <div class="card-cat">سياسة - فلسطين</div>
-                          <h5 class="my-card-title">غزة! عام على الحرب</h5>
-                        </div>
-                        <img src="https://picsum.photos/300/150" alt="Gaza" />
+                <div class="row h-50">
+                  <div class="col-md-6">
+                    <div class="my-card small-card">
+                      <div class="my-card-body">
+                        <div class="card-cat">سياسة - فلسطين</div>
+                        <h5 class="mycard-title">غزة! عام على الحرب</h5>
                       </div>
-                    </div>
-                  </div>
-                  <div class="row h-50">
-                    <div class="col-6">
-                      <div class="my-card small-card">
-                        <div class="my-card-body">
-                          <div class="card-cat">سياسة - فلسطين</div>
-                          <h5 class="mycard-title">غزة! عام على الحرب</h5>
-                        </div>
-                        <img src="https://picsum.photos/300/150" alt="Gaza" />
-                      </div>
+                      <img src="https://picsum.photos/300/150" alt="Gaza" />
                     </div>
                   </div>
                 </div>
@@ -258,7 +278,11 @@
         </div>
       </div>
       <div class="politics">
-        <div class="po-title">سياسة</div>
+        <div class="d-flex justify-content-between">
+          <div class="title">سياسة</div>
+          <div class="more">المزيد</div>
+        </div>
+
         <hr />
         <div class="row">
           <div class="col-md-6">
@@ -347,7 +371,11 @@
         </div>
       </div>
       <div class="economey">
-        <div class="ec-title">اقتصاد</div>
+        <div class="d-flex justify-content-between">
+          <div class="title">اقتصاد</div>
+          <div class="more">المزيد</div>
+        </div>
+
         <hr />
         <div class="row">
           <div class="col-md-6">
@@ -436,7 +464,10 @@
         </div>
       </div>
       <div class="sport">
-        <div class="sp-title">رياضة</div>
+        <div class="d-flex justify-content-between">
+          <div class="title">رياضة</div>
+          <div class="more">المزيد</div>
+        </div>
         <hr />
         <div class="row">
           <div class="col-md-6">
@@ -525,7 +556,10 @@
         </div>
       </div>
       <div class="health">
-        <div class="he-title">صحة</div>
+        <div class="d-flex justify-content-between">
+          <div class="title">صحة</div>
+          <div class="more">المزيد</div>
+        </div>
         <hr />
         <div class="row">
           <div class="col-md-6">
