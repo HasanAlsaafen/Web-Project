@@ -2,12 +2,20 @@
 
 body {
     font-family: 'Cairo', 'Poppins', sans-serif;
+  
 }
-
+.des{
+    font-size: 1.5em;
+}
 .my-nav {
-    background-image: url('https://cdn.vectorstock.com/i/500p/84/65/abstract-white-monochrome-background-vector-32028465.jpg');
-
+    background-color:#543fbd;
     height: 6rem;
+    color: #F0FFFF;
+
+}
+.nav-link ,.navbar-brand
+{
+    color: #ededed;
 }
 
 .card-cat {
@@ -16,11 +24,11 @@ body {
 }
 
 .first-card {
-    background: linear-gradient(90deg, #281e5b, #322768);
+    background: linear-gradient(90deg, #281e5b, #292055);
     color: #F0FFFF;
 }
 .first-card .card-title{
-    font-size: 2em;
+    font-size: 1em;
 }
 .first-card .card-tbody{
     font-size: 1.5em;
@@ -69,3 +77,17 @@ footer{
     background:linear-gradient( rgb(227, 227, 229), #ededed);
 }
 
+.news-title
+{
+    font-size: 2.5em;
+}  
+.date{
+    opacity: 0.7;
+}
+.v-divider
+{
+    height: 1.5em;
+    width: 0.1em;
+    background-color: #fafafa;
+
+}
