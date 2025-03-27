@@ -74,7 +74,8 @@ body {
     font-size: larger;
 }
 footer{
-    background:linear-gradient( rgb(227, 227, 229), #ededed);
+    background:linear-gradient( rgb(245, 245, 248), #ededed);
+    font-size: 0.75em;
 }
 
 .news-title

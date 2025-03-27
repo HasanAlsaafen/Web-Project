@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Including Bootstrab stylesheets and icons and my own CSS also changinge the icon-->
     <title>Naam news</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -21,7 +22,9 @@
       type="image/x-icon"
     />
   </head>
+  <!--Since the languge is Arabic so the direction right to left-->
   <body dir="rtl">
+    <!--The navbar is From bootstrab with some modification-->
     <nav class="navbar navbar-expand-lg my-nav">
       <div class="container-fluid">
         <img
@@ -52,14 +55,7 @@
               <a class="nav-link" href="category.html#economey">اقتصاد</a>
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link"
-                href="category.html#sport"
-                role="button"
-                aria-expanded="false"
-              >
-                رياضة
-              </a>
+              <a class="nav-link" href="category.html#sport"> رياضة </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="category.html#politics">سياسة</a>
@@ -76,30 +72,37 @@
               aria-label="Search"
             />
             <button class="btn btn-outline-light" type="submit">
+              <!--Search icon from bootstrab library for icons-->
               <i class="bi bi-search"></i>
             </button>
           </form>
         </div>
-        &nbsp; &nbsp; &nbsp;
+        <!--Special Charachters that means space and adding the tempreture-->
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
         <span class="v-divider d-md-inline d-none"></span>
         <i class="bi bi-thermometer"> c <sup>&#64447;</sup> 22 </i>
       </div>
     </nav>
+    <!--Starting the main content-->
     <div class="container mt-3">
+      <!--margin top with 3 -->
+
       <div class="row">
         <div class="col-md-6">
           <div class="my-card first-card">
             <div class="row">
+              <!--The link generates random pictures-->
               <img
                 src="https://picsum.photos/500/300"
                 class="col-12"
                 alt="Gaza"
               />
             </div>
-            <div class="my-card-body px-4 row">
-              <div class="card-cat row">سياسة - فلسطين</div>
-              <h5 class="my-card-title row">غزة! عام على الحرب</h5>
-              <div class="my-card-text row">
+            <div class="my-card-body p-2 row">
+              <!--padding from left and right with 4-->
+              <div class="card-cat">سياسة - فلسطين</div>
+              <h5 class="my-card-title">غزة! عام على الحرب</h5>
+              <div class="my-card-text">
                 <div>
                   غزة عام على الحرب - استمرار المعاناة، الدمار الذي لحق بالبنية
                   التحتية، وتفاقم الأوضاع الإنسانية في ظل الحصار. رغم ذلك، يظل
@@ -120,14 +123,15 @@
                   class="col-12"
                   alt="Gaza"
                 />
-                <div class="my-card-body row mx-2">
-                  <div class="card-cat row">سياسة - فلسطين</div>
-                  <h5 class="my-card-title pt-6 row">
+                <div class="my-card-body col-12">
+                  <div class="card-cat">سياسة - فلسطين</div>
+                  <h5 class="my-card-title pt-6">
                     غزة! عام على الحرب وما زالت الأبادة مستمرة
                   </h5>
                 </div>
               </div>
             </div>
+            <!-- my-2 means margin from top and down 2  -->
             <div class="col-6 mb-3 my-2">
               <div class="my-card row">
                 <img
@@ -135,9 +139,9 @@
                   class="col-12"
                   alt="Gaza"
                 />
-                <div class="my-card-body row mx-2">
-                  <div class="card-cat row">سياسة - فلسطين</div>
-                  <h5 class="my-card-title row">
+                <div class="my-card-body col-12">
+                  <div class="card-cat">سياسة - فلسطين</div>
+                  <h5 class="my-card-title">
                     غزة! عام على الحرب وما زالت الأبادة مستمرة
                   </h5>
                 </div>
@@ -150,9 +154,9 @@
                   class="col-12"
                   alt="Gaza"
                 />
-                <div class="my-card-body row mx-2">
-                  <div class="card-cat row">سياسة - فلسطين</div>
-                  <h5 class="my-card-title row">
+                <div class="my-card-body col-12">
+                  <div class="card-cat">سياسة - فلسطين</div>
+                  <h5 class="my-card-title">
                     غزة! عام على الحرب وما زالت الأبادة مستمرة
                   </h5>
                 </div>
@@ -165,9 +169,9 @@
                   class="col-12"
                   alt="Gaza"
                 />
-                <div class="my-card-body row mx-2">
-                  <div class="card-cat row">سياسة - فلسطين</div>
-                  <h5 class="my-card-title row">
+                <div class="my-card-body col-12">
+                  <div class="card-cat">سياسة - فلسطين</div>
+                  <h5 class="my-card-title">
                     غزة! عام على الحرب وما زالت الأبادة مستمرة
                   </h5>
                 </div>
@@ -176,17 +180,20 @@
           </div>
         </div>
       </div>
+      <!--Starting the second section-->
       <div class="S-section my-5">
         <div class="row">
-          <div class="col-md-4">
+          <!-- Insuring responsinvness in all screens using infiexes (breakpoints ) lg and md-->
+          <div class="col-lg-4 col-md-12">
             <div class="most-read">
               <div class="title">
                 <p>الأكثر قراءة</p>
               </div>
               <hr />
-
+              <!--display flex box and justify between -->
               <div class="row d-flex justify-content-between">
                 <div class="col-10">
+                  <!--Link classes from bootstrab-->
                   <a
                     href=""
                     class="link-secondary link-offset-2 link-underline-opacity-0"
@@ -195,8 +202,8 @@
                   </a>
                   <hr />
                 </div>
-
-                <div class="col mostread-order">1</div>
+                <!-- auto mean the remiang size-->
+                <div class="col-auto mostread-order">1</div>
               </div>
 
               <div class="row d-flex justify-content-between">
@@ -209,7 +216,7 @@
                   </a>
                   <hr />
                 </div>
-                <div class="col mostread-order">2</div>
+                <div class="col-auto mostread-order">2</div>
               </div>
 
               <div class="row d-flex justify-content-between">
@@ -222,7 +229,7 @@
                   </a>
                   <hr />
                 </div>
-                <div class="col mostread-order">3</div>
+                <div class="col-auto mostread-order">3</div>
               </div>
 
               <div class="row d-flex justify-content-between">
@@ -235,7 +242,7 @@
                   </a>
                   <hr />
                 </div>
-                <div class="col mostread-order">4</div>
+                <div class="col-auto mostread-order">4</div>
               </div>
 
               <div class="row d-flex justify-content-between">
@@ -247,12 +254,13 @@
                     ما حقيقته!
                   </a>
                 </div>
-                <div class="col mostread-order">5</div>
+                <div class="col-auto mostread-order">5</div>
               </div>
             </div>
           </div>
 
-          <div class="more-news col-md-8">
+          <!-- again with insuring responsivness-->
+          <div class="more-news col-lg-8 col-md-12">
             <div class="title">
               <p>المزيد من الأخبار</p>
             </div>
@@ -265,11 +273,9 @@
                     alt="Gaza"
                     class="col-12"
                   />
-                </div>
-                <div class="row">
+
                   <div class="card-cat">سياسة - فلسطين</div>
-                </div>
-                <div class="row">
+
                   <h5 class="my-card-title">غزة! عام على الحرب</h5>
                   <p class="my-card-text">
                     تمر اليوم الذكرى السنوية الأولى لحرب غزة والمعروفة بطوفان
@@ -281,30 +287,28 @@
               <div class="col-md-4">
                 <div class="row">
                   <div class="col-md-12 col-6">
-                    <div class="row">
-                      <div class="col-md-12 col-12">
-                        <div class="card-cat">سياسة - فلسطين</div>
-                        <h5 class="my-card-title">غزة! عام على الحرب</h5>
-                      </div>
+                    <div class="row my-card">
+                      <div class="card-cat">سياسة - فلسطين</div>
+                      <h5 class="my-card-title">غزة! عام على الحرب</h5>
+
+                      <img
+                        src="https://picsum.photos/300/150"
+                        alt="Gaza"
+                        class="row"
+                      />
                     </div>
-                    <img
-                      src="https://picsum.photos/300/150"
-                      alt="Gaza"
-                      class="col-12"
-                    />
                   </div>
                   <div class="col-md-12 col-6">
-                    <div class="row">
-                      <div class="col-md-12 col-12">
-                        <div class="card-cat">سياسة - فلسطين</div>
-                        <h5 class="my-card-title">غزة! عام على الحرب</h5>
-                      </div>
+                    <div class="row my-card">
+                      <div class="card-cat">سياسة - فلسطين</div>
+                      <h5 class="my-card-title">غزة! عام على الحرب</h5>
+
+                      <img
+                        src="https://picsum.photos/300/150"
+                        alt="Gaza"
+                        class="row"
+                      />
                     </div>
-                    <img
-                      src="https://picsum.photos/300/150"
-                      alt="Gaza"
-                      class="col-12"
-                    />
                   </div>
                 </div>
               </div>
@@ -312,6 +316,7 @@
           </div>
         </div>
       </div>
+      <!--the categories with "المزيد"-->
       <div class="politics">
         <div class="d-flex justify-content-between">
           <div class="title">سياسة</div>
@@ -329,10 +334,10 @@
                   alt="Gaza"
                 />
               </div>
-              <div class="my-card-body px-4 row">
-                <div class="card-cat row">سياسة - فلسطين</div>
-                <h5 class="my-card-title row">غزة! عام على الحرب</h5>
-                <div class="my-card-text row">
+              <div class="my-card-body row">
+                <div class="card-cat">سياسة - فلسطين</div>
+                <h5 class="my-card-title">غزة! عام على الحرب</h5>
+                <div class="my-card-text">
                   <div>
                     غزة عام على الحرب - استمرار المعاناة، الدمار الذي لحق
                     بالبنية التحتية، وتفاقم الأوضاع الإنسانية في ظل الحصار. رغم
@@ -352,14 +357,16 @@
                     class="col-12"
                     alt="Gaza"
                   />
-                  <div class="my-card-body row mx-2">
-                    <div class="card-cat row">سياسة - فلسطين</div>
-                    <h5 class="my-card-title pt-6 row">
+                  <div class="my-card-body">
+                    <div class="card-cat">سياسة - فلسطين</div>
+                    <!--pt is padding from top -->
+                    <h5 class="my-card-title pt-6">
                       غزة! عام على الحرب وما زالت الأبادة مستمرة
                     </h5>
                   </div>
                 </div>
               </div>
+              <!-- mb marign bottom -->
               <div class="col-6 mb-3 my-2">
                 <div class="my-card row">
                   <img
@@ -367,39 +374,39 @@
                     class="col-12"
                     alt="Gaza"
                   />
-                  <div class="my-card-body row mx-2">
-                    <div class="card-cat row">سياسة - فلسطين</div>
-                    <h5 class="my-card-title row">
+                  <div class="my-card-body">
+                    <div class="card-cat">سياسة - فلسطين</div>
+                    <h5 class="my-card-title">
                       غزة! عام على الحرب وما زالت الأبادة مستمرة
                     </h5>
                   </div>
                 </div>
               </div>
-              <div class="col-6 my-2">
+              <div class="col-6">
                 <div class="my-card row">
                   <img
                     src="https://picsum.photos/300/150"
                     class="col-12"
                     alt="Gaza"
                   />
-                  <div class="my-card-body row mx-2">
-                    <div class="card-cat row">سياسة - فلسطين</div>
-                    <h5 class="my-card-title row">
+                  <div class="my-card-body">
+                    <div class="card-cat">سياسة - فلسطين</div>
+                    <h5 class="my-card-title">
                       غزة! عام على الحرب وما زالت الأبادة مستمرة
                     </h5>
                   </div>
                 </div>
               </div>
-              <div class="col-6 my-2">
+              <div class="col-6">
                 <div class="my-card row">
                   <img
                     src="https://picsum.photos/300/150"
                     class="col-12"
                     alt="Gaza"
                   />
-                  <div class="my-card-body row mx-2">
-                    <div class="card-cat row">سياسة - فلسطين</div>
-                    <h5 class="my-card-title row">
+                  <div class="my-card-body">
+                    <div class="card-cat">سياسة - فلسطين</div>
+                    <h5 class="my-card-title">
                       غزة! عام على الحرب وما زالت الأبادة مستمرة
                     </h5>
                   </div>
@@ -426,10 +433,10 @@
                   alt="Gaza"
                 />
               </div>
-              <div class="my-card-body px-4 row">
-                <div class="card-cat row">سياسة - فلسطين</div>
-                <h5 class="my-card-title row">غزة! عام على الحرب</h5>
-                <div class="my-card-text row">
+              <div class="my-card-body row">
+                <div class="card-cat">سياسة - فلسطين</div>
+                <h5 class="my-card-title">غزة! عام على الحرب</h5>
+                <div class="my-card-text">
                   <div>
                     غزة عام على الحرب - استمرار المعاناة، الدمار الذي لحق
                     بالبنية التحتية، وتفاقم الأوضاع الإنسانية في ظل الحصار. رغم
@@ -449,9 +456,9 @@
                     class="col-12"
                     alt="Gaza"
                   />
-                  <div class="my-card-body row mx-2">
-                    <div class="card-cat row">سياسة - فلسطين</div>
-                    <h5 class="my-card-title pt-6 row">
+                  <div class="my-card-body">
+                    <div class="card-cat">سياسة - فلسطين</div>
+                    <h5 class="my-card-title pt-6">
                       غزة! عام على الحرب وما زالت الأبادة مستمرة
                     </h5>
                   </div>
@@ -464,39 +471,39 @@
                     class="col-12"
                     alt="Gaza"
                   />
-                  <div class="my-card-body row mx-2">
-                    <div class="card-cat row">سياسة - فلسطين</div>
-                    <h5 class="my-card-title row">
+                  <div class="my-card-body">
+                    <div class="card-cat">سياسة - فلسطين</div>
+                    <h5 class="my-card-title">
                       غزة! عام على الحرب وما زالت الأبادة مستمرة
                     </h5>
                   </div>
                 </div>
               </div>
-              <div class="col-6 my-2">
+              <div class="col-6">
                 <div class="my-card row">
                   <img
                     src="https://picsum.photos/300/150"
                     class="col-12"
                     alt="Gaza"
                   />
-                  <div class="my-card-body row mx-2">
-                    <div class="card-cat row">سياسة - فلسطين</div>
-                    <h5 class="my-card-title row">
+                  <div class="my-card-body">
+                    <div class="card-cat">سياسة - فلسطين</div>
+                    <h5 class="my-card-title">
                       غزة! عام على الحرب وما زالت الأبادة مستمرة
                     </h5>
                   </div>
                 </div>
               </div>
-              <div class="col-6 my-2">
+              <div class="col-6">
                 <div class="my-card row">
                   <img
                     src="https://picsum.photos/300/150"
                     class="col-12"
                     alt="Gaza"
                   />
-                  <div class="my-card-body row mx-2">
-                    <div class="card-cat row">سياسة - فلسطين</div>
-                    <h5 class="my-card-title row">
+                  <div class="my-card-body">
+                    <div class="card-cat">سياسة - فلسطين</div>
+                    <h5 class="my-card-title">
                       غزة! عام على الحرب وما زالت الأبادة مستمرة
                     </h5>
                   </div>
@@ -522,10 +529,10 @@
                   alt="Gaza"
                 />
               </div>
-              <div class="my-card-body px-4 row">
-                <div class="card-cat row">سياسة - فلسطين</div>
-                <h5 class="my-card-title row">غزة! عام على الحرب</h5>
-                <div class="my-card-text row">
+              <div class="my-card-body">
+                <div class="card-cat">سياسة - فلسطين</div>
+                <h5 class="my-card-title">غزة! عام على الحرب</h5>
+                <div class="my-card-text">
                   <div>
                     غزة عام على الحرب - استمرار المعاناة، الدمار الذي لحق
                     بالبنية التحتية، وتفاقم الأوضاع الإنسانية في ظل الحصار. رغم
@@ -545,9 +552,9 @@
                     class="col-12"
                     alt="Gaza"
                   />
-                  <div class="my-card-body row mx-2">
-                    <div class="card-cat row">سياسة - فلسطين</div>
-                    <h5 class="my-card-title pt-6 row">
+                  <div class="my-card-body">
+                    <div class="card-cat">سياسة - فلسطين</div>
+                    <h5 class="my-card-title pt-6">
                       غزة! عام على الحرب وما زالت الأبادة مستمرة
                     </h5>
                   </div>
@@ -560,39 +567,39 @@
                     class="col-12"
                     alt="Gaza"
                   />
-                  <div class="my-card-body row mx-2">
-                    <div class="card-cat row">سياسة - فلسطين</div>
-                    <h5 class="my-card-title row">
+                  <div class="my-card-body">
+                    <div class="card-cat">سياسة - فلسطين</div>
+                    <h5 class="my-card-title">
                       غزة! عام على الحرب وما زالت الأبادة مستمرة
                     </h5>
                   </div>
                 </div>
               </div>
-              <div class="col-6 my-2">
+              <div class="col-6">
                 <div class="my-card row">
                   <img
                     src="https://picsum.photos/300/150"
                     class="col-12"
                     alt="Gaza"
                   />
-                  <div class="my-card-body row mx-2">
-                    <div class="card-cat row">سياسة - فلسطين</div>
-                    <h5 class="my-card-title row">
+                  <div class="my-card-body">
+                    <div class="card-cat">سياسة - فلسطين</div>
+                    <h5 class="my-card-title">
                       غزة! عام على الحرب وما زالت الأبادة مستمرة
                     </h5>
                   </div>
                 </div>
               </div>
-              <div class="col-6 my-2">
+              <div class="col-6">
                 <div class="my-card row">
                   <img
                     src="https://picsum.photos/300/150"
                     class="col-12"
                     alt="Gaza"
                   />
-                  <div class="my-card-body row mx-2">
-                    <div class="card-cat row">سياسة - فلسطين</div>
-                    <h5 class="my-card-title row">
+                  <div class="my-card-body">
+                    <div class="card-cat">سياسة - فلسطين</div>
+                    <h5 class="my-card-title">
                       غزة! عام على الحرب وما زالت الأبادة مستمرة
                     </h5>
                   </div>
@@ -602,7 +609,7 @@
           </div>
         </div>
       </div>
-      <div class="health">
+      <div class="health mb-5">
         <div class="d-flex justify-content-between">
           <div class="title">صحة</div>
           <div class="more"><a href="category.html#health">المزيد</a></div>
@@ -618,10 +625,10 @@
                   alt="Gaza"
                 />
               </div>
-              <div class="my-card-body px-4 row">
-                <div class="card-cat row">سياسة - فلسطين</div>
-                <h5 class="my-card-title row">غزة! عام على الحرب</h5>
-                <div class="my-card-text row">
+              <div class="my-card-body">
+                <div class="card-cat">سياسة - فلسطين</div>
+                <h5 class="my-card-title">غزة! عام على الحرب</h5>
+                <div class="my-card-text">
                   <div>
                     غزة عام على الحرب - استمرار المعاناة، الدمار الذي لحق
                     بالبنية التحتية، وتفاقم الأوضاع الإنسانية في ظل الحصار. رغم
@@ -641,54 +648,54 @@
                     class="col-12"
                     alt="Gaza"
                   />
-                  <div class="my-card-body row mx-2">
-                    <div class="card-cat row">سياسة - فلسطين</div>
-                    <h5 class="my-card-title pt-6 row">
+                  <div class="my-card-body">
+                    <div class="card-cat">سياسة - فلسطين</div>
+                    <h5 class="my-card-title pt-6">
                       غزة! عام على الحرب وما زالت الأبادة مستمرة
                     </h5>
                   </div>
                 </div>
               </div>
               <div class="col-6 mb-3 my-2">
-                <div class="my-card row">
+                <div class="my-card">
                   <img
                     src="https://picsum.photos/300/150"
                     class="col-12"
                     alt="Gaza"
                   />
-                  <div class="my-card-body row mx-2">
-                    <div class="card-cat row">سياسة - فلسطين</div>
-                    <h5 class="my-card-title row">
+                  <div class="my-card-body">
+                    <div class="card-cat">سياسة - فلسطين</div>
+                    <h5 class="my-card-title">
                       غزة! عام على الحرب وما زالت الأبادة مستمرة
                     </h5>
                   </div>
                 </div>
               </div>
-              <div class="col-6 my-2">
+              <div class="col-6">
                 <div class="my-card row">
                   <img
                     src="https://picsum.photos/300/150"
                     class="col-12"
                     alt="Gaza"
                   />
-                  <div class="my-card-body row mx-2">
-                    <div class="card-cat row">سياسة - فلسطين</div>
-                    <h5 class="my-card-title row">
+                  <div class="my-card-body">
+                    <div class="card-cat">سياسة - فلسطين</div>
+                    <h5 class="my-card-title">
                       غزة! عام على الحرب وما زالت الأبادة مستمرة
                     </h5>
                   </div>
                 </div>
               </div>
-              <div class="col-6 my-2">
+              <div class="col-6">
                 <div class="my-card row">
                   <img
                     src="https://picsum.photos/300/150"
                     class="col-12"
                     alt="Gaza"
                   />
-                  <div class="my-card-body row">
-                    <div class="card-cat row">سياسة - فلسطين</div>
-                    <h5 class="my-card-title row">
+                  <div class="my-card-body">
+                    <div class="card-cat">سياسة - فلسطين</div>
+                    <h5 class="my-card-title">
                       غزة! عام على الحرب وما زالت الأبادة مستمرة
                     </h5>
                   </div>
@@ -699,31 +706,34 @@
         </div>
       </div>
     </div>
+    <!--Footer -->
+    <!--classic footer with 4 columns  -->
     <footer>
-      <div class="row">
-        <div class="col-md-2 m-4">
+      <div class="row justify-content-between">
+        <div class="col-2 m-4">
           <p>تغطية اعلامية مميزة على مدار الساعة</p>
         </div>
-        <div class="col-md-2 m-4">
+        <div class="col-2 m-4">
           <div class="row">رياضة</div>
 
           <div class="row">سياسة</div>
           <div class="row">اقتصاد</div>
           <div class="row">صحة</div>
         </div>
-        <div class="col-md-2 m-4">
+        <div class="col-2 m-4">
           <div class="row">عن الموقع</div>
           <div class="row">
-            <div class="row">اتصل بنا</div>
-            <div class="row">اعلن معنا</div>
+            <div class="">اتصل بنا</div>
+            <div class="">اعلن معنا</div>
           </div>
         </div>
-        <div class="col-md-2 m-4">
+        <div class="col-2 m-4">
           <p>اتصل بنا +970568973379</p>
         </div>
       </div>
     </footer>
   </body>
+  <!--Including bootstrab javascript using cdn (it's faster)-->
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
